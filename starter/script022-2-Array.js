@@ -31,13 +31,16 @@ mines[0][3] // ………………………………………………………�
 // Etape 1 :
 // Pour récupérer la valeur à la deuxième ligne troisième colonne du tableau,
 // utilisez les indices corrects (n'oubliez pas que les indices commencent à zéro).
+console.log(mines[1][2]);
 
 
 
 // Testez de la même manière l'emplacement situé en première ligne quatrième colonne
+console.log(mines[0][3]);
 
 
 // Etape 2 :
 // Pour indiquer combien de mines contient la première ligne de ce tableau,
 // vous devez parcourir les éléments de cette ligne et compter combien d'entre eux sont égaux à 1.
-
+const nombreMines = mines[0].length;
+console.log("Nombre de mines dans la première ligne : " + nombreMines);
